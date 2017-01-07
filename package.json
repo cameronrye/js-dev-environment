@@ -1,0 +1,32 @@
+{
+  "name": "js-dev-environment",
+  "version": "1.0.0",
+  "description": "Minimal, Yet Useful JavaScript Dev Environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "lint": "standard",
+    "dev": "chokidar '**/*.js' -c 'standard && ava'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cameronrye/js-dev-environment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cameronrye/js-dev-environment/issues"
+  },
+  "homepage": "https://github.com/cameronrye/js-dev-environment#readme",
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "devDependencies": {
+    "ava": "latest",
+    "chokidar-cli": "latest",
+    "precommit-hook": "latest",
+    "standard": "latest"
+  }
+}
