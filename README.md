@@ -1,4 +1,8 @@
 # JavaScript Dev Environment
+[![Build Status](https://travis-ci.org/cameronrye/js-dev-environment.svg?branch=master)](https://travis-ci.org/cameronrye/js-dev-environment)
+[![Coverage Status](https://coveralls.io/repos/github/cameronrye/js-dev-environment/badge.svg?branch=master)](https://coveralls.io/github/cameronrye/js-dev-environment?branch=master)
+[![Dependency Status](https://dependencyci.com/github/cameronrye/js-dev-environment/badge)](https://dependencyci.com/github/cameronrye/js-dev-environment)
+[![Build status](https://ci.appveyor.com/api/projects/status/624sbos1mca728ro?svg=true)](https://ci.appveyor.com/project/cameronrye/js-dev-environment)
 
 Minimal, yet useful JavaScript development environment with out-of-the-box tools designed to get you up and running quickly with little configuration.
 
@@ -11,3 +15,7 @@ Minimal, yet useful JavaScript development environment with out-of-the-box tools
 Run `npm run dev` and you will get all of your JS files linted by Standard.js and tests run by Ava.
 
 You will not be able to commit to GIT unless all of your tests are green and the linter is happy.
+
+## License
+
+MIT © [Cameron Rye](https://cameronrye.com/)

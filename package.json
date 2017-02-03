@@ -4,17 +4,19 @@
   "description": "Minimal, Yet Useful JavaScript Dev Environment",
   "main": "index.js",
   "scripts": {
-    "test": "ava",
+    "test": "nyc ava",
     "lint": "standard",
-    "dev": "chokidar '**/*.js' -c 'standard && ava'"
+    "dev": "chokidar '**/*.js' -c 'standard && nyc ava'",
+    "report": "nyc report --reporter=html",
+    "validate": "npm ls"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cameronrye/js-dev-environment.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Cameron Rye",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/cameronrye/js-dev-environment/issues"
   },
@@ -26,6 +28,8 @@
   "devDependencies": {
     "ava": "latest",
     "chokidar-cli": "latest",
+    "coveralls": "latest",
+    "nyc": "latest",
     "precommit-hook": "latest",
     "standard": "latest"
   }
