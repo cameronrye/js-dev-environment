@@ -21,18 +21,17 @@ Run `npm run dev` and you will get all of your JS files linted by Standard.js an
 You will not be able to commit to GIT unless all of your tests are green and the linter is happy.
 
 ## Tools
- * [Ava](https://github.com/avajs/ava) for testing
- * [Standard](https://github.com/feross/standard) for linting
- * [Chokidar-cli](https://github.com/kimmobrunfeldt/chokidar-cli) for file watching
- * [Precommit-hook](https://github.com/nlf/precommit-hook) for automatically running npm scripts.
+* [Ava](https://github.com/avajs/ava) for testing
+* [Standard](https://github.com/feross/standard) for linting
+* [Chokidar-cli](https://github.com/kimmobrunfeldt/chokidar-cli) for file watching
+* [Precommit-hook](https://github.com/nlf/precommit-hook) for automatically running npm scripts.
 
+## Release History
+* 0.0.1
+  * Initial Release
 
- ## Release History
- * 0.0.1
-     * Initial Release
+## License
 
- ## License
+MIT © [Cameron Rye](https://cameronrye.com/)
 
- MIT © [Cameron Rye](https://cameronrye.com/)
-
- See ``LICENSE`` for more information.
+See ``LICENSE`` for more information.
