@@ -1,4 +1,6 @@
 # JavaScript Dev Environment
+> Minimal JS Environment
+
 [![Build Status](https://travis-ci.org/cameronrye/js-dev-environment.svg?branch=master)](https://travis-ci.org/cameronrye/js-dev-environment)
 [![Coverage Status](https://coveralls.io/repos/github/cameronrye/js-dev-environment/badge.svg?branch=master)](https://coveralls.io/github/cameronrye/js-dev-environment?branch=master)
 [![Dependency Status](https://dependencyci.com/github/cameronrye/js-dev-environment/badge)](https://dependencyci.com/github/cameronrye/js-dev-environment)
@@ -8,16 +10,28 @@
 
 Minimal, yet useful JavaScript development environment with out-of-the-box tools designed to get you up and running quickly with little configuration.
 
-### Tools
+## Installation
+```sh
+npm install
+```
+
+## Usage
+Run `npm run dev` and you will get all of your JS files linted by Standard.js and tests run by Ava.
+
+You will not be able to commit to GIT unless all of your tests are green and the linter is happy.
+
+## Tools
  * [Ava](https://github.com/avajs/ava) for testing
  * [Standard](https://github.com/feross/standard) for linting
  * [Chokidar-cli](https://github.com/kimmobrunfeldt/chokidar-cli) for file watching
  * [Precommit-hook](https://github.com/nlf/precommit-hook) for automatically running npm scripts.
 
-Run `npm run dev` and you will get all of your JS files linted by Standard.js and tests run by Ava.
+ ## Release History
+ * 0.0.1
+     * Initial Release
 
-You will not be able to commit to GIT unless all of your tests are green and the linter is happy.
+ ## License
 
-## License
+ MIT © [Cameron Rye](https://cameronrye.com/)
 
-MIT © [Cameron Rye](https://cameronrye.com/)
+ See ``LICENSE`` for more information.
